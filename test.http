@@ -1,0 +1,11 @@
+GET http://localhost:8080/api HTTP/1.1
+
+GET / HTTP/1.1
+Host: www.baidu.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.8)
+Accept-Encoding: gzip,deflate
+
+###
+GET http://localhost:8090/ HTTP/1.1
+Host: www.baidu.com
